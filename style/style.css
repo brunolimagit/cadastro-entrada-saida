@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+ font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: rgb(241, 240, 240);
+}
+.container-time-work {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  margin: 5% 20%;
+  font-size: 1.5rem;
+  color: black;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.container-time-work h1 {
+  margin-bottom: 2rem;
+}
+#form-funcionario label {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+#form-funcionario input {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #cbcbcb;
+  margin-top: 10px;
+}
+input:focus {
+  outline: none;
+}
+#form-funcionario input:hover {
+  border: 2px solid #b8e6e6;
+}
+#btnEntrada {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #b8e6e6;
+  color: #767676;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+#btnEntrada:hover {
+  background-color: #45d8d8;
+  color: #626262;
+}
+#btnSaida {
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  background-color: #b8e6e6;
+  color: #767676;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+#btnSaida:hover {
+  background-color: #45d8d8;
+  color: #626262;
+}
+.modal-confirmar {
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 0 30%;
+  color: rgb(0, 0, 0);
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.dados-entrada-e-saida {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+  gap: 2px;
+}
+.tempo-entrada,
+.tempo-saida {
+  width: 45%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+.tempo-saida h3 {
+  text-align: center;
+}
+.tempo-entrada h3 {
+  text-align: center;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #cbcbcb;
+  padding: 8px;
+  text-align: center;
+  color: #767676;
+}
+tr {
+  background-color: #b8e6e6;
+  margin-bottom: 1rem;
+}

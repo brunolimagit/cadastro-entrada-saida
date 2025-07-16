@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container-time-work">
+        <h1>Time Work</h1>
+
+        <form id="form-funcionario">
+          <label for="nome completo">Full Name:</label>
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            placeholder="Nome Completo" autofocus
+          />
+
+          <button type="submit" id="btnEntrada">START</button>
+          <button type="submit" id="btnSaida">END</button>
+        </form>
+      </div>
+
+      <div class="modal-confirmar">
+        <h2>Corfirm Time</h2>
+        <form class="form-confirmar">
+          <div id="Resultado">Resultado</div>
+          <button type="submit" id="btnConfirm">Confirm</button>
+          <button type="submit" id="btnCancel">Cancel</button>
+        </form>
+      </div>
+
+      <div class="dados-entrada-e-saida">
+        <div class="tempo-entrada">
+          <h3>Work Start</h3>
+          <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Time</th>
+                </tr>
+          </thead>
+
+          <tbody id="tabela-entrada-funcionario">
+            <!-- dados serão adicionados por JS -->
+          </tbody>
+
+          </table>
+        </div>
+
+         <div class="tempo-saida">
+          <h3>Work End</h3>
+          <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Time</th>
+                </tr>
+          </thead>
+
+          <tbody id="tabela-entrada-funcionario">
+            <!-- dados serão adicionados por JS -->
+          </tbody>
+
+          </table>
+        </div>
+      </div>
+
+      
+
+       
+      </div>
+      <!--fim-div-container-->
+    </section>
+    <script src="js/script.js"></script>
+  </body>
+</html>
