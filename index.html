@@ -19,12 +19,13 @@
           <input
             type="text"
             name="nome"
-            id="nome"
+            id="nome-funcionario"
             placeholder="Nome Completo" autofocus
           />
 
           <button type="submit" id="btnEntrada">START</button>
           <button type="submit" id="btnSaida">END</button>
+          <div id="campo-invalido"></div>
         </form>
       </div>
 
@@ -44,7 +45,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Time</th>
+                    <th>Date / Time</th>
                 </tr>
           </thead>
 
@@ -61,19 +62,17 @@
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Time</th>
+                    <th> Date / Time</th>
                 </tr>
-          </thead>
+                      </thead>
 
-          <tbody id="tabela-entrada-funcionario">
+          <tbody id="tabela-saida-funcionario">
             <!-- dados serão adicionados por JS -->
           </tbody>
 
           </table>
         </div>
       </div>
-
-      
 
        
       </div>

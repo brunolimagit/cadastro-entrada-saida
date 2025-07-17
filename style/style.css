@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 body {
- font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
   background-color: rgb(241, 240, 240);
@@ -69,19 +69,54 @@ input:focus {
   background-color: #45d8d8;
   color: #626262;
 }
+#campo-invalido{
+  color: #d13535;
+  padding: 1rem;
+}
 .modal-confirmar {
   background-color: white;
   display: none;
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
-  margin: 0 30%;
+  margin: 0 10%;
   color: rgb(0, 0, 0);
   font-size: 1.5rem;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#btnConfirm {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #b8e6e6;
+  color: #767676;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+#btnConfirm:hover {
+  background-color: #45d8d8;
+  color: #626262;
+}
+#btnCancel {
+  padding: 0.5rem 1.5rem;
+  border-radius: 1rem;
+  background-color: #b8e6e6;
+  color: #767676;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+#btnCancel:hover {
+  background-color: #45d8d8;
+  color: #626262;
 }
 .dados-entrada-e-saida {
   display: flex;
