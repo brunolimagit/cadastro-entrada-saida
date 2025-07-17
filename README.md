@@ -1,6 +1,12 @@
 # Time Work - Sistema de Controle de Ponto Simples e Funcional!
 
 ![Demonstração do sistema](timee-work-demo.gif)
+![Demonstração do sistema](assets/Captura%20de%20Tela%20(29).png)
+![Demonstração do sistema](assets/Captura%20de%20Tela%20(30).png)
+![Demonstração do sistema](assets/Captura%20de%20Tela%20(31).png)
+![Demonstração do sistema](assets/Captura%20de%20Tela%20(32).png)
+![Demonstração do sistema](assets/Captura%20de%20Tela%20(33).png)
+
 
 
 Hoje compartilho com vocês um projeto que desenvolvi com foco na praticidade para registrar o horário de entrada e saída de colaboradores de forma rápida, organizada e visualmente clara.
